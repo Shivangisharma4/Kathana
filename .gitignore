@@ -1,0 +1,45 @@
+# Node modules (both root and frontend)
+node_modules/
+kathana-frontend/node_modules/
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+.env.*
+
+# macOS files
+.DS_Store
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+build/
+dist/
+kathana-frontend/dist/
+
+# Coverage reports
+coverage/
+
+# Misc
+*.swp
+*.swo
+
+# Ignore large GGUF model files
+kathana-AI/models/*.gguf
+
+kathana-AI/models/*.gguf
